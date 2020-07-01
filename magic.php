@@ -9,7 +9,7 @@ Programmer();
 MAGIC BOT 2017/5/30                     
 */
 ob_start();
-$TOKEN = '1167466650:AAHQXp_eYKMocL2eSrYCmnLL1ypabQXVlM4'; /*TOKEN BOT*/
+$TOKEN = '1167466650:AAHQXp_eYKMocL2eSrYCmnLL1ypabQXVlM4';
 define('API', $TOKEN, 0);
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API."/".$method;
